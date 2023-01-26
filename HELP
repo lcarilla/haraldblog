@@ -1,3 +1,4 @@
+0. run "npm install" to install the dependencies
 1. CONFIGURE config/meta.json
 2. run node hblog touch
 3. write your first post in the new directory or run "node hblog new-cli" to generate a blogpost usind the commandline
