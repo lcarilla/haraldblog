@@ -1,0 +1,5 @@
+1. CONFIGURE config/meta.json
+2. run node hblog touch
+3. write your first post in the new directory or run "node hblog new-cli" to generate a blogpost usind the commandline
+4. run "node hblog new" to generate the new blog
+5. edit the style.css file in html/style as you want to make your blog look more unique
