@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog title</title>
+    <link rel="stylesheet" href="/blog/style/style.css">
+    <link rel="stylesheet" href="/blog/assets/static/code.css">
+    <script src="/blog/assets/static/code.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body>
+  <div class="navbar">
+        <a href="/blog/" class="caption">sycrw</a>
+  </div>      
+    <div class="blog">
+        <div class="blogtitle-div"><a class="blogtitle">blog title</a></div>
+        <div class="blogintro-div">
+        <a class="blogintro">first intro paragraph</a><a class="blogintro">second intro paragraph</a>
+        </div>
+        <div class="blogcontent">
+        <a class="blogcontentelem">a normal text element</a><img class="blogimg" src="/blog/assets/sql.jpg"/><a class="bc-header">a subheading</a>
+<pre><code>
+a codeblock  
+
+</code></pre>
+<pre><code>
+const fs = require("fs");
+exports.touch = () => {
+    const directory = "./new"
+    fs.readdirSync(directory, (err, files) => {
+        if (err) throw err;
+        for (const file of files) {
+            fs.unlinkSync(`${directory}/${file}`, (err) => {
+            if (err) throw err;
+            });
+        }
+        });
+    fs.copyFileSync("./gen/blog.json", "./new/blog.json");
+}
+  
+
+</code></pre>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">Copyright 2023 by sycrw.ga - Kausimausi --- powered by haraldBlog.js</div>
+</body>
+</html>

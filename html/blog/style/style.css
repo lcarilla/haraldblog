@@ -1,0 +1,159 @@
+/*
+THE DIV WRAPPING THE CAPTION - TOP NAVBAR
+*/
+.navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+    text-align: end;
+}
+/*
+THE CAPTION - THE ANCHOR IN THE NAVBAR THAT LINKS TO YOUR BLOG OVERVIEW
+*/
+.caption{
+    font-size: 26px;
+    text-align: end;
+    color:aliceblue;
+    margin-right: 20px;
+}
+/*
+THE CONTAINER WRAPPING YOUR ENTIRE BLOG POST
+*/
+.blog{
+    word-wrap: break-word;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    color:black;
+}
+/*
+THE DIV WRAPPING THE TITLE OF YOUR BLOG
+*/
+.blogtitle-div{
+
+}
+/*
+THE TITLE OF THE BLOG - IN
+*/
+.blogtitle{
+ font-size: 50px;
+}
+/*
+THE SHORT SUMMARY TEXT FOR EVERY POST ON BLOG OVERVIEW
+*/
+.blogsum{
+    font-size: 18px;
+}
+/*
+INTRO SECTION ELEMENTS OF YOUR BLOG
+*/
+.blogintro{
+    
+}
+/*
+BLOG CONTENT AFTER HEADING AND INTRO
+*/
+.blogcontent{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+/*
+THE COPYRIGHT NOTICE AT THE BOTTOM
+*/
+.copyright{
+  margin: 50px 0 0 5px;
+}
+/*
+THE DIV WRAPPING THE HEADER OF YOUR BLOGPOSTS
+*/
+.blogsheader-div{
+    text-align: center;
+}
+/*
+THE HEADER OF YOUR BLOG OVERVIEW PAGE
+*/
+.blogsheader{
+    font-size: 30px;
+}
+/*
+ANCHOR FOR DEFAULT TEXT ON YOUR BLOG
+*/
+.blogcontentelem{
+    font-size: 26px;
+}
+/*
+IMAGES USED IN YOUR BLOGPOSTS
+*/
+.blogimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*
+THE CALENDAR ICON IN YOUR BLOG OVERVIEW
+*/
+.cal{
+    width: 20px;
+    margin-right: 3px;
+}
+/*
+DIV ON BLOG OVERVIEW CONTAINING ALL THE BLOG LINKS
+*/
+.blogposts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*
+DIV THAT LINKS A BLOG ON YOUR BLOG OVERVIEW
+*/
+.blogpost-index{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 19px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+/*
+THE ANCHOR LINKING TO THE BLOGPOSTS
+*/
+.bloglink{
+    margin-bottom: 5px;
+}
+/*
+DIV WRAPPING THE INTRO SECTION OF BLOGPOSTS
+*/
+.blogintro-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+/*
+THE CODE ELEMENT WRAPPING YOUR CODE
+*/
+code{
+    font-size: 20px;
+}
+/*
+SUBHEADING IN YOUR BLOG CONTENT
+*/
+.bc-header{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*
+THE FOLLOWING CSS IS NOT MEANT TO BE EDITED BY YOU
+*/
+body, html{
+    margin: 0;
+}
+code{
+    padding: 0 0 0 3% !important;
+}

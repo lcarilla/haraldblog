@@ -1,0 +1,13 @@
+{
+    "title": "blog title",
+    "url": "the unique URL for the post",
+    "sum": "summarize your blogs content in a few words",
+    "intro": ["first intro paragraph", "second intro paragraph"],
+    "content": [
+        {"t": "e", "c": "a normal text element"},
+        {"t": "img", "c": "sql.jpg"},
+        {"t": "h", "c": "a subheading"},
+        {"t": "c", "c": "a codeblock"},
+        {"t": "cf", "c": "code.js"}
+    ]
+}
